@@ -1,3 +1,10 @@
+import json
+from menu_loader import load_menu
+
+# Carga el menú desde el archivo JSON
+menu_file_path = 'ruta/del/menu.json'  
+MENU = load_menu(menu_file_path)
+
 MENU = {
     "espresso": {
         "ingredients": {
